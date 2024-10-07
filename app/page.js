@@ -6,7 +6,7 @@ export default function Home() {
       <p className="text-lg text-slate-700">Using Nextjs, TailwindCSS and Framer Motion library.<br></br>
         This project was made at the request of Infinite8. This project contains a home page and a pop-up Celebration with XP Bar (Full Page) and a pop-up Celebration for Rewards (Compact), you can navigate between them via the navigation bar above.<br></br>
         For any extra information you can contact me: omar.abordn@gmail.com | +971547052458<br></br>
-        Thank you and I hope ypu like it.</p>
+        Thank you and I hope you like it.</p>
     </div>
   );
 }

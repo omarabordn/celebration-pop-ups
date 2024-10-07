@@ -15,10 +15,10 @@ const CelebratePopUp = () => {
 
     return (
         <>
-            <div key={refresh} className="container mx-auto">
+            <div key={refresh} className="container mx-auto h-full">
 
                 <motion.div
-                    className="bg-cover bg-no-repeat bg-center h-screen" style={{ backgroundImage: 'url(https://s3-alpha-sig.figma.com/img/7fbd/b783/9ed9db18a902ff680f1fe60991f7e251?Expires=1728864000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=E90P8ecgNPpGOwOkXe-uDzC9SXENgC3mLVjqyuobfOZFBCKlSnNGSlPqMSmoswASeV2FMLDkWRspywSLLZQPAkzgj2XQnTot-Yv9dOo5qiSlkYVueM4IebchQLjMHqu0zV-4ck9Kh7D7n5wistQ9~5RrCgTl9pFZ0Aj3gor33ZfH1hNy1Z4iTaXkaWKdLcKkwvdlZIzbhQHH-pwU54BFsOkcf2LGoXzDgBLKRWHD7ablCmGO7EPpJ3niKFJkt8UgCGQB073v84fWay2czb4zoq33I~RKlltO-jYT91vct4-QU-YgWeNXrUEZoxSXVA9T80MpMOfQf-~aol~1JK-5ZA__)' }}
+                    className="bg-cover bg-no-repeat bg-center h-full" style={{ backgroundImage: 'url(https://s3-alpha-sig.figma.com/img/7fbd/b783/9ed9db18a902ff680f1fe60991f7e251?Expires=1728864000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=E90P8ecgNPpGOwOkXe-uDzC9SXENgC3mLVjqyuobfOZFBCKlSnNGSlPqMSmoswASeV2FMLDkWRspywSLLZQPAkzgj2XQnTot-Yv9dOo5qiSlkYVueM4IebchQLjMHqu0zV-4ck9Kh7D7n5wistQ9~5RrCgTl9pFZ0Aj3gor33ZfH1hNy1Z4iTaXkaWKdLcKkwvdlZIzbhQHH-pwU54BFsOkcf2LGoXzDgBLKRWHD7ablCmGO7EPpJ3niKFJkt8UgCGQB073v84fWay2czb4zoq33I~RKlltO-jYT91vct4-QU-YgWeNXrUEZoxSXVA9T80MpMOfQf-~aol~1JK-5ZA__)' }}
                     initial={{ opacity: 0, scale: 0.7 }}
                     animate={{ opacity: 1, scale: 1 }}
                     transition={{
@@ -29,7 +29,7 @@ const CelebratePopUp = () => {
                 >
 
                     <motion.h1
-                        className="font-black text-center bg-clip-text text-transparent lg:text-6xl lg:pt-6 lg:pb-4 md:text-4xl md:pt-2 md:pb-3"
+                        className="font-black text-center bg-clip-text text-transparent lg:text-6xl lg:pt-6 lg:pb-4 sm:text-4xl sm:pt-2 sm:pb-3"
                         style={{
                             backgroundImage: 'linear-gradient(120deg, rgba(255, 244, 192, 1), rgba(255, 224, 2, 1))',
                             textShadow: '1px 1px 20px #F3BA2F'
@@ -50,7 +50,7 @@ const CelebratePopUp = () => {
                     />
 
                     <motion.h3
-                        className="text-yellow-950 font-bold text-center pt-5 lg:text-4xl md:text-2xl"
+                        className="text-yellow-950 font-bold text-center pt-5 lg:text-4xl sm:text-2xl"
                         style={{
                             textShadow: '1px 1px 4px #834C30'
                         }}
@@ -68,7 +68,7 @@ const CelebratePopUp = () => {
                         transition={{ duration: 0.7, delay: 1.3 }}
                     >
                         <motion.p
-                            className="grid justify-items-start text-slate-200 font-normal lg:text-lg md:text-xs"
+                            className="grid justify-items-start text-slate-200 font-normal lg:text-lg sm:text-xs"
                             initial={{ opacity: 0, y: -50 }}
                             animate={{ opacity: 1, y: 0 }}
                             transition={{ duration: 0.7, delay: 1.3 }}
@@ -77,7 +77,7 @@ const CelebratePopUp = () => {
                         </motion.p>
 
                         <motion.p
-                            className="grid justify-items-end text-amber-400 font-normal lg:text-lg md:text-xs"
+                            className="grid justify-items-end text-amber-400 font-normal lg:text-lg sm:text-xs"
                             initial={{ opacity: 0, y: -50 }}
                             animate={{ opacity: 1, y: 0 }}
                             transition={{ duration: 0.7, delay: 1.3 }}
@@ -94,13 +94,13 @@ const CelebratePopUp = () => {
                         transition={{ duration: 0.7, delay: 1.3 }}
                     >
                         <motion.div
-                            className="absolute bg-black opacity-50 lg:h-6 md:h-3"
+                            className="absolute bg-black opacity-50 lg:h-6 sm:h-3"
                             initial={{ width: '0%' }}
                             animate={{ width: '100%' }}
                             transition={{ duration: 1, delay: 1.3 }}
                         />
                         <motion.div
-                            className=" relative left-2 lg:h-4 lg:top-1 md:h-2 md:top-0.5 md:left-1"
+                            className=" relative left-2 lg:h-4 lg:top-1 sm:h-2 sm:top-0.5 sm:left-1"
                             style={{ background: 'linear-gradient(180deg, #FFFF00 0%, #FBB03B 22.6%, #F7931E 47.24%, #F37830 64.12%, #F16A3A 76%, #F37433 84.61%, #F79020 99.46%, #F7931E 100.65%)' }}
                             initial={{ width: '0%' }}
                             animate={{ width: '30%' }}
@@ -119,13 +119,13 @@ const CelebratePopUp = () => {
                                 'linear-gradient(180deg, #FFFFFF 0%, #F7C891 8.5%, #F3AC59 12.75%, #EC6615 77%, #944617 100%)'
                         }}
 
-                            className="font-bold text-amber-950 border-2 border-[#35241C] rounded-md lg:mt-8 lg:px-8 lg:py-3 lg:font-bold lg:text-lg md:mt-4 md:px-4 py-2 md:text-xs"
+                            className="font-bold text-amber-950 border-2 border-[#35241C] rounded-md lg:mt-8 lg:px-8 lg:py-3 lg:font-bold lg:text-lg sm:mt-4 sn:px-4 py-2 sm:text-xs"
                         >
                             Claim NFT Badge
                         </button>
-                        <h4 className="text-stone-900 font-bold lg:text-xl pt-4 md:text-sm md:pt-2">You’ve leveled up and earned a new badge!</h4>
-                        <p className="font-thin text-slate-300 lg:pt-2 lg:text-base md:pt-1 md:text-sm">Claim your <span className="text-amber-400 font-bold lg:text-lg md:text-sm">NFT badge</span> now, or retrieve it later from your Inventory.</p>
-                        <p className="font-thin text-slate-300 pt-4 lg:text-sm md:text-xs">To claim your new badge, you'll need to transfer your previous badge from your wallet for it to be burned in exchange for the new one.<br></br> If there's insufficient gas in your wallet, the transaction will be canceled. You can always visit your Inventory and claim your badge at any time.</p>
+                        <h4 className="text-stone-900 font-bold lg:text-xl pt-4 sm:text-sm sm:pt-2">You’ve leveled up and earned a new badge!</h4>
+                        <p className="font-thin text-slate-300 lg:pt-2 lg:text-base sm:pt-1 sm:text-sm">Claim your <span className="text-amber-400 font-bold lg:text-lg sm:text-sm">NFT badge</span> now, or retrieve it later from your Inventory.</p>
+                        <p className="font-thin text-slate-300 pt-4 pb-8 lg:text-sm sm:text-xs">To claim your new badge, you'll need to transfer your previous badge from your wallet for it to be burned in exchange for the new one.<br></br> If there's insufficient gas in your wallet, the transaction will be canceled. You can always visit your Inventory and claim your badge at any time.</p>
                     </motion.div>
                 </motion.div>
             </div>
@@ -133,7 +133,7 @@ const CelebratePopUp = () => {
                 onClick={handleRefresh}>
                 <Image width={35} height={35} priority src={Ref} />
             </button>
-            )
+            
         </>
     );
 };

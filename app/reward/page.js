@@ -50,38 +50,38 @@ const RewardPopUp = () => {
                             transition={{ delay: 0.6, duration: 0.7 }}
                         >
                             <h2
-                                className="text-yellow-400 font-bold lg:pb-4 lg:text-5xl md:text-3xl md:pb-2"
+                                className="text-yellow-400 font-bold lg:pb-4 lg:text-5xl sm:text-3xl am:pb-2"
                             >
                                 Congratulations!
                             </h2>
-                            <p className="text-yellow-300 font-medium mt-1 lg:pb-8 lg:text-4xl md:text-2xl lg:pb-4">
+                            <p className="text-yellow-300 font-medium mt-1 lg:pb-8 lg:text-4xl sm:text-2xl lg:pb-4">
                                 Command completed Successfully!
                             </p>
                         </motion.div>
 
                         <motion.div
-                            className="text-gray-300 lg:mt-4 md:mt-3 text-center"
+                            className="text-gray-300 lg:mt-4 sm:mt-3 text-center"
                             initial={{ opacity: 0, x: -50 }}
                             animate={{ opacity: 1, x: 0 }}
                             transition={{ duration: 0.7, delay: 1.2 }}
                         >
-                            <p className="font-thin text-slate-300 pt-2 lg:text-lg md:text-sm">
+                            <p className="font-thin text-slate-300 pt-2 lg:text-lg sm:text-sm">
                                 You have successfully completed a command! Here are your
                                 well-earned rewards. Keep<br></br> exploring the Command Center for even more
                                 exciting missions and bigger rewards!
                             </p>
-                            <p className="font-thin text-slate-300 pt-2 lg:text-lg md:text-sm">You have gained:</p>
+                            <p className="font-thin text-slate-300 pt-2 lg:text-lg sm:text-sm">You have gained:</p>
                         </motion.div>
 
-                        <motion.div className="lg:mt-6 md:mt-3"
+                        <motion.div className="lg:mt-6 sm:mt-3"
                             initial={{ opacity: 0, scale: 0.5 }}
                             animate={{ opacity: 1, scale: 1 }}
                             transition={{ delay: 1.5, duration: 0.7 }}
                         >
                             <div className="flex flex-row justify-center items-center gap-4">
-                                <div className="h-0.5 w-1/4 bg-slate-200 lg:mb-4 md:mb-2"></div>
-                                <h3 className="text-yellow-500 text-center font-semibold lg:text-3xl lg:mb-4 md:text-2xl md:mb-2">Rewards</h3>
-                                <div className="h-0.5 w-1/4 bg-slate-200 lg:mb-4 md:mb-2"></div>
+                                <div className="h-0.5 w-1/4 bg-slate-200 lg:mb-4 sm:mb-2"></div>
+                                <h3 className="text-yellow-500 text-center font-semibold lg:text-3xl lg:mb-4 sm:text-2xl sm:mb-2">Rewards</h3>
+                                <div className="h-0.5 w-1/4 bg-slate-200 lg:mb-4 sm:mb-2"></div>
                             </div>
 
                             <div className="flex flex-row justify-center items-center gap-16">
